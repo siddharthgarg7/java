@@ -30,7 +30,8 @@ public class AddTwoNumbers {
 		ListNode l1 = new ListNode(1);
 		l1.next = new ListNode(8);
 		ListNode l2 = new ListNode(0);
-		ListNode resultNode = new M2_AddTwoNumbers().addTwoNumbers(l1, l2);
+        System.out.println ("Calling the addtwonumbers method");
+		ListNode resultNode = new AddTwoNumbers().addTwoNumbers(l1, l2);
 		System.out.println(resultNode);
 	}
 
