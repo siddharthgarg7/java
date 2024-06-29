@@ -1,6 +1,6 @@
 //Remove Duplicates from Sorted Array
 class Solution {
-    public int removeDuplicates(int[] nums) {
+    public static int removeDuplicates(int[] nums) {
         int index = 1;
 
         for (int i = 0; i < nums.length - 1; i++) {
@@ -12,4 +12,10 @@ class Solution {
 
         return index;
     }
+
+    public static void main (String args[]) {
+        int j = removeDuplicates (new int[1,2,3]);
+        
+    }
+
 }
