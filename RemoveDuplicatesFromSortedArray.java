@@ -7,7 +7,7 @@ import junit.framework.TestCase;
  * 
  * @author siddharth garg
  */
-public class M80_RemoveDuplicatesFromSortedArrayII extends TestCase {
+public class RemoveDuplicatesFromSortedArrayII extends TestCase {
 
   @Test
   public void test() {
