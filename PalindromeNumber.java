@@ -39,6 +39,7 @@ public class PalindromeNumber extends TestCase {
     assertEquals(false, pn.isPalindrome(53125));
     assertEquals(true, pn.isPalindrome(521125));
     assertEquals(false, pn.isPalindrome(522125));
+    assertEquals(false, pn.isPalindrome(52212225));
   }
 
 }
